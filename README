@@ -1,0 +1,8 @@
+ASM Dropper
+===========
+
+This is a very simple dropper written in ASM using FASM, for MS Windows environments.
+
+This example loads the resources such as libraries and API addresses at runtime by looking for
+kernel32.dll base in the stack (I've another version using PEB to get the kernel32.dll base address
+somewhere in my backups, but isn't too dificult to implement it).
